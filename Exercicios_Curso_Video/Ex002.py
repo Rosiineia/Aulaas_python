@@ -1,0 +1,12 @@
+nomePaciente = input("Digite seu nome:")
+idade = input("Digite sua idade:")
+telefone = input("Digite seu telefone:")
+
+print("-----------------------------------")
+print("Seja bem vindo " + nomePaciente)
+print("========================")
+print("Dados Paciente")
+print("                  ")
+print("Nome:... "+ nomePaciente)
+print("Idade:.. " + idade)
+print("Telefone:. " + telefone)
