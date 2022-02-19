@@ -9,4 +9,9 @@ def inserir(dicionario):
             input("Digite a ultima Data de acesso: "),
             input("Digite a ultima estação acessada: ").upper()]
 
-   
+#salvar(dicionario)
+
+   def salvar(dicionario):
+       with open("bancoDeDados.txt", "a") as arquivo:
+           for chave, valor in dicionario.items():
+               arquivo.write(chave + ": " + str(valor ))

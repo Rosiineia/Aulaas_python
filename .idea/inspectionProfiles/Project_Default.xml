@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Funcoes.ModuloPrincipal.exibirInventario" />
+          <option value="Funcoes.ModuloPrincipal.localizarPorNome" />
+          <option value="Funcoes.ModuloPrincipal.depreciarPorNome" />
+          <option value="Funcoes.ModuloPrincipal.excluirPorSerial" />
+          <option value="Funcoes.ModuloPrincipal.resumirValores" />
+          <option value="Dicionarios.Funcoes.salvar" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
